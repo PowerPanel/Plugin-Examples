@@ -34,7 +34,7 @@ class Examplepayment{
     /**
 	 * Getting/Setting the Request data that's send to the 3rd party API. For debugging perpose
 	 *
-	 * @param	mixed $request data. This can be pure raw XML or an array POST data for example
+	 * @param	mixed $request data. This can be pure raw XML/json or an array POST data for example
 	 * @return	void
 	 */
     private function setRequest($req){
@@ -48,7 +48,7 @@ class Examplepayment{
     /**
 	 * Getting/Setting the Response data from the 3rd party API. For debugging perpose
 	 *
-	 * @param	mixed $request data. This can be pure raw XML or an array POST data for example
+	 * @param	mixed $request data. This can be pure raw XML/json or an array POST data for example
 	 * @return	void
 	 */
     private function setResponse($resp){
