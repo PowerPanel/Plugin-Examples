@@ -1,5 +1,5 @@
 <?php
-namespace Powerpanel\Plugins\Ssl\SSLExample;
+namespace Powerpanel\Plugins\Ssl\SslExample;
 /**
  * SSL plugin for PowerPanel
  *
@@ -11,7 +11,7 @@ namespace Powerpanel\Plugins\Ssl\SSLExample;
  * @version    1.0.0 (2017-03-01)
  * @since      File available since 1.0.0 (2017-03-01)
  */
-class SSL
+class SslExample
 {
 	/**
 	 * Passes the initiation values to the base class

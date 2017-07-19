@@ -1,6 +1,6 @@
 <?php
 
-namespace Powerpanel\Plugins\Payment\Examplepayment;
+namespace Powerpanel\Plugins\Payment\Paymentexample;
 
 /**
  * Payment plugin for PowerPanel
@@ -11,7 +11,7 @@ namespace Powerpanel\Plugins\Payment\Examplepayment;
  * @since      File available since 1.0.0 (2017-04-21)
  */
 
-class Examplepayment{
+class Paymentexample {
     private $result;
     private $request;
     private $response;
