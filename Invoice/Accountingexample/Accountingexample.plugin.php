@@ -1,5 +1,5 @@
 <?php
-namespace Powerpanel\Plugins\Invoice\Twinfield;
+namespace Powerpanel\Plugins\Invoice\Accounting;
 
 /*
 
@@ -19,16 +19,15 @@ $invoicedata_example = array(
 );
 */
 /**
- * @package     Powerpanel Twinfield API
- * @author      E. Maurits
- * Filename:    Twinfield.plugin.php
+ * @package     Powerpanel Accounting plugin
+ * @author      PowerPanel
+ * Filename:    AccountingName.plugin.php
  * Author:
  * Created:     25-8-2015
  *
- * Description: De base class voor het gebruik van Twinfield met Powerpanel
- *
+ * Example class for an accounting plugin for PowerPanel 
  */
-class Twinfield {
+class Accounting {
     private $result;
     private $request;
     private $response;
@@ -42,7 +41,6 @@ class Twinfield {
 	 * @return	void
 	 */
     function __construct($credentials){
-        // You receieve the credentials here in array('username' => 'test', 'password' => 'passwordHere');
         // Store it in $this->setSettings() so you can use it later when needed
 
         /*
