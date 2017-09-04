@@ -4,4 +4,4 @@ Here you will find all plugin Examples of PowerPanel that you can use to create 
 
 If you have any questions about the plugins feel free to get in touch at support@powerpanel.io
 
-Check out the [documentation](/documentation/readme.md)  section for more information
+Check out the [documentation](/wiki/)  section for more information
