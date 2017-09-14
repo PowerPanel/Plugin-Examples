@@ -470,8 +470,7 @@ Class Example {
 
 			//Example result
 			$result = array(
-				'msg' => 'Domain has been successfully deleted',
-				'status' => 'quarantine'
+				'msg' => 'Domain has been successfully modified'
 			);
 
 			$this->setResult( $result );
